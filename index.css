@@ -1,0 +1,132 @@
+body{
+    font-size: 100;
+}
+.heading{
+    color: rgb(84, 85, 82);
+    font-size: larger;
+}
+.vertical-nav {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transition: all 0.4s;
+  }
+
+.page-content {
+    margin-left: 4rem;
+    transition: all 0.4s;
+    
+  }
+.logo{
+    margin-left: 3.4rem;
+    transition: all 0.4s;
+
+
+}
+.nav-link{
+    color: #8e8989;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav-link:active{
+    color: #8e8989;
+    background-color: rgb(54, 26, 80);
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgb(54, 28, 78);
+}
+.active{
+    color: white;    background-color: rgb(54, 26, 80);
+}
+.main {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+    padding: 0rem;
+    width: 100%;
+    border-radius: 0rem;
+    font-weight: 100;
+    background-color: #dee2e6;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+    filter: alpha(opacity=0);
+}
+.upload{
+    opacity: 0;
+}
+.fileUpload .btn{
+    bcolor: #4fbfa8;
+    background-color: #ffffff;
+    border-color: #4fbfa8;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+#over{
+    width: 7rem;
+    border-radius: 0rem;
+    font-weight: 100;
+    
+}
+#overed{
+    width: 7rem;
+    border-radius: 0rem;
+    font-weight: 100;
+    background-color: #dee2e6;
+
+    
+}
+.border #over{
+    color: #8e8989;
+    font-size: 2rem;
+    margin: 50%;
+}
+.btn.btn-primary.add{
+    font-weight: 100;
+    width: 7rem;
+    border-radius: 0rem;
+    background-color: rgb(100, 38, 100);
+   }
+.searchBox {
+    border: solid 1px;
+    background: white;
+    height: 35px;
+    border-radius: 35px;
+    width: 210px;
+
+}
+
+.searchButton {
+    float: left;
+    width: 35px;
+    height: 35px;
+    padding: 0rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 35px;
+    width: 150px;
+
+}
