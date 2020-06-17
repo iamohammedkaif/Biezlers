@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0, 
+        "firstname":"Andreas",
+        "lastname" : "Iniesta",
+        "role" : "Admin",
+        "action":"action"
+    },
+    {
+        "id": 0, 
+        "firstname":"Luis",
+        "lastname" : "Suarez",
+        "role" : "Manager",
+        "action":"action"
+    },
+    {
+        "id": 0, 
+        "firstname":"Antione",
+        "lastname" : "Greizmann",
+        "role" : "QA",
+        "action":"action"
+    },
+    {
+        "id": 0, 
+        "firstname":"Leo",
+        "lastname" : "Messi",
+        "role" : "Developer",
+        "action":"action"
+    },
+    {
+        "id": 0, 
+        "firstname":"Ramos",
+        "lastname" : "Sergio",
+        "role" : "Developer",
+        "action":"action"
+    }
+    
+]
